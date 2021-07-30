@@ -1,0 +1,389 @@
+/*Reseteo*/
+* {
+	margin: 0;
+  	padding: 0;
+ 	text-decoration: none;
+  	list-style-type: none;
+}
+/*Escritorio*/
+/*Estilos generales*/
+#html {
+	font-family: 'Prata', sans-serif;
+	font-size: 150%;
+  	color: rgb(59 79 77);
+}
+.icono {
+	height: 9vh;
+	width: 110px;
+	display: inline;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-size: cover;
+	border-radius: 3px;
+}
+/*Comienzo menu encabezado*/
+.nav {
+	display: inline;
+	width: 100%;
+	height: 9vh;
+	color: rgb(251 243 243);
+	background-color: rgb(59 79 77);
+	position: fixed;
+	top: 0px;
+	left: 110px;
+}
+nav ul li {
+	display: inline-block;
+	width: 15%;
+	position: relative;
+	left: 10%;
+	top: 20px;
+	font-size: 1.4rem;
+	text-align: center;
+	color: rgb(251 243 243);
+}
+nav ul li a {
+	text-decoration: none;
+	color: rgb(251 243 243);
+}
+/*Fin menu encabezado*/
+/*Titulos y subtitulos*/
+.titulosPrincipalesVerdes {
+	text-align: center;	
+	color: rgb(59 79 77);
+	font-weight: bold;
+	font-size: 2rem;
+}
+.titulosPrincipalesBlancos {
+	text-align: center;	
+	color: rgb(251 243 243);
+	font-weight: bold;
+	font-size: 2rem;
+}
+.titulosSecundariosVerdes {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;	
+	color: rgb(59 79 77);
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.titulosSecundariosBlancos {
+	text-align: center;	
+	color: rgb(251 243 243);
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.subtitulosCentrados {
+	text-align: center;	
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+/*Imagenes*/	
+.imagenesDerecha {
+	padding: 10px;
+	margin: 10px;  
+	float: right; 
+	width: 26rem;
+	height: 15rem;
+}
+.imagenesIzquierda {
+	padding: 10px;
+	margin: 10px;  
+	float: left; 
+	width: 26rem;
+	height: 15rem;
+}
+/*Textos*/
+.textosDerecha {
+	font-size: 1.2rem;
+	padding: 10px;
+	margin: 10px;
+	text-align: right;
+}	
+.textosIzquierda {
+	font-size: 1.2rem;
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+}
+.centrar {
+	text-align: center;
+}
+.fondoGris {
+	background-color: rgb(159 165 164);
+}
+/*Animaciones*/
+.animacionIconos:hover {
+	transform: scale(1.25);
+}
+/*Index*/
+/*Comienzo Seccion PrimeraVista*/
+#PrimeraVista {
+	background-image: url(../Img/edificios1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 85vh;
+	padding: 5px;
+	margin-top: 79px;
+}	
+.tituloprincipal {
+	background-color: rgb(159 165 164);
+	text-align: center;	
+	color: rgb(251 243 243);
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	padding: 5px;
+}	
+/*Comienzo submenu*/
+.submenucentrado {
+	display:flex;
+    justify-content: center;
+    align-items: center;
+}	
+ul {
+	list-style:none;
+}
+#submenu > li {
+	float:left;
+}			
+#submenu li a{
+		background-color:rgb(59 79 77);
+		color:rgb(251 243 243);
+		font-size: 1.2rem;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+}	
+#submenu li a:hover {
+		background-color:rgb(159 165 164);
+}					
+#submenu li ul {
+		display:none;
+		position:absolute;
+		width:231px;
+}
+#submenu li:hover > ul {
+		display:block;
+}			
+#submenu li ul li {
+		position:relative;
+		width:209px;
+		right: 48px;
+}			
+#submenu li ul li ul {
+		top:0px;
+}
+/*Fin submenu*/
+/*Comienzo Seccion PrimeraVista*/
+/*Seccion PorQueElegirnos*/
+#PorQueElegirnos {
+	background-color: rgb(251 243 243);
+}
+.divPadre {
+	height: 45vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+.divHijo {
+	margin: 10px;
+	padding: 10px;
+	width: 25vh;
+	height: 25vh;
+	text-align: center;
+}
+#Servicios {
+	color: rgb(251 243 243);
+	background-color: rgb(59 79 77);
+}
+#dobleBoton {
+	display: inline-block;
+}
+#ComoTrabajamos {
+	height: 57vh;
+	background-color: rgb(251 243 243);
+}
+/*Comprar*/
+.titularComprar {
+	background-color: rgb(159 165 164);
+}
+#tituloComprar {
+	margin-left: 5px;
+	margin-top: 94px;
+	text-align: left;	
+	color: white;
+	font-weight: bold;
+	font-size: 2rem;
+}
+#subtituloComprar {
+	margin-left: 5px;
+	text-align: left;	
+	color: rgb(251 243 243);
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+#textoComprar {
+	text-align: center;
+	color: rgb(251 243 243);
+}
+#imgComprar {
+	display: flex;
+   	align-items: start;
+	grid-area: imagenComprar;
+	background-image: url(../Img/comprar.jpg);
+	background-size: cover;
+	margin: 5px;
+}
+#formularioComprar {
+	grid-area: formulario;
+	margin: 5px;
+	left: 25px;
+}
+#contactoComprar {
+	grid-area: contactoComprar;
+	margin-top: 25px;
+}
+.grillaComprar {
+	display: grid;
+	grid-template-areas: 
+	"formulario imagenComprar"
+	"contactoComprar contactoComprar";
+	grid-template-columns: 6fr 6fr;
+	grid-template-rows: 6fr 6fr;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	margin-left: 40px;
+
+}
+/*Asesoría*/
+#titularesAsesoría {
+	margin-top: 94px;
+}
+#textoAsesoria1 {
+	grid-template-areas: textoAsesoria1;
+	font-size: 1.2rem;
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+}
+#imagenAsesoria1 {
+	grid-template-areas: imagenAsesoria1;
+}
+#textoAsesoria2 {
+	grid-template-areas: textoAsesoria2;
+	font-size: 1.2rem;
+	padding: 10px;
+	text-align: left;
+	background-color: rgb(159 165 164);
+}
+#imagenAsesoria2 {
+	grid-template-areas: imagenAsesoria2;
+	background-image: linear-gradient(to right,rgb(159 165 164),rgb(251 243 243))
+}
+#grillaAsesoria {
+	display: grid;
+	grid-template-areas: 
+	"textoAsesoria1 imagenAsesoria1"
+	"textoAsesoria2 imagenAsesoria2";
+	grid-template-columns: 9fr 3fr;
+	grid-template-rows: 6fr 6fr;
+}
+.contactoAsesoria {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*Vender*/
+.titularesVender {
+	margin-top: 94px;
+}
+.tablas { /*Tablas*/
+	width: 100%;
+	border: 1px solid rgb(159 165 164);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+tr td {
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid rgb(159 165 164);
+   border-spacing: 0;
+}
+.fotoVender{
+	height: 70vh;
+	background-image: url(../Img/Familia.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+}
+.contactoVender {
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+	color: rgb(251 243 243);
+	background-color: rgb(159 165 164);	
+}
+/*Invertir*/
+#titularesInvertir {
+	margin-top: 94px;
+}
+#textoInvertir1 {
+	grid-template-areas: textoInvertir1;
+	font-size: 1.2rem;
+	padding: 10px;
+	text-align: left;
+}
+#imagenInvertir1 {
+	grid-template-areas: imagenInvertir1;
+}
+#textoInvertir2 {
+	grid-template-areas: textoInvertir2;
+	font-size: 1.2rem;
+	padding: 10px;
+	text-align: left;
+}
+#imagenInvertir2 {
+	grid-template-areas: imagenInvertir2;
+	background-image: linear-gradient(to right,rgb(159 165 164),rgb(251 243 243))
+}
+#grillaInvertir {
+	display: grid;
+	grid-template-areas: 
+	"textoInvertir1 imagenInvertir1"
+	"imagenInvertir2 textoInvertir2";
+	grid-template-columns: 9fr 3fr;
+	grid-template-rows: 6fr 6fr;
+}
+/*Contacto*/
+#titularesContacto {
+	margin-top: 94px;
+}
+#formularioContacto {
+	text-align: center;
+	height: 55vh;
+}
+/*Footer comun*/
+footer {
+	background-color: rgb(59 79 77);
+	color: rgb(251 243 243);
+	padding: 10px;
+	position: static;
+}
+/*SMARTPHONE*/
+@media (max-width: 576px;) {
+nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(251 243 243);
+}
+.nav {
+	width: 100%;
+	height: 9vh;
+	background-color: rgb(59 79 77);
+}
